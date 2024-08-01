@@ -97,5 +97,5 @@ const authenticate = async (req, res, next) => {
     res.json(err);
   }
 };
-
-export {signup, login , authenticate}
+const authController = {signup, login , authenticate}
+export  default authController
