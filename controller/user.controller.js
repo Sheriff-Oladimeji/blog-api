@@ -13,5 +13,5 @@ const getAllPosts = async (req, res) => {
     throw err;
   }
 };
-
-export {getAllPosts}
+const userController =  {getAllPosts}
+export  default userController

@@ -134,11 +134,12 @@ const deleteAPost = async (req, res) => {
     throw err;
   }
 };
-
-export {
+const postController = {
   getAllPublishedPost,
   getSinglePublishedPost,
   createAPost,
   deleteAPost,
   updateAPost,
 };
+
+export default postController
