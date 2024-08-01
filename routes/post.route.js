@@ -12,5 +12,5 @@ router.delete(
   authController.authenticate,
   postController.deleteAPost
 ); //protected route
-
-export  default router
+const postRouter = router
+export  default postRouter

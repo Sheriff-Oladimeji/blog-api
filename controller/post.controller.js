@@ -1,5 +1,5 @@
-import Post from "../model/Post.model";
-import User from "../model/User.model";
+import Post from "../model/Post.model.js";
+import User from "../model/User.model.js";
 const getAllPublishedPost = async (req, res) => {
   try {
     const posts = await Post.find({ state: "Published" });
